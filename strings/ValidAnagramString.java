@@ -1,7 +1,9 @@
+package strings;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class GalidAnagram {
+public class ValidAnagramString {
     public static boolean anagramStrings(String s, String t) {
         //your code goes here
         if(s.length()!=t.length()){

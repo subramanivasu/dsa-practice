@@ -1,3 +1,5 @@
+package strings;
+
 public class RotatedString {
     public static boolean rotateString(String s, String goal) {
 

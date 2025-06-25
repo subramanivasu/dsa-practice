@@ -1,4 +1,7 @@
-import java.util.*;
+package strings;
+
+import java.util.HashMap;
+import java.util.Map;
 
 class Solution {
     public static boolean isomorphicStringHashMap(String s, String t) {
