@@ -24,7 +24,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] result = selectionSort(new int[]{9,7,13,2,14});
         for(int num:result){
-            System.out.print(num);
+            System.out.print(num + " ");
         }
 
     }
