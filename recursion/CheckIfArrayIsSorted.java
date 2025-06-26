@@ -33,6 +33,7 @@ public class CheckIfArrayIsSorted {
     public static void main(String[] args) {
         System.out.println(isSorted(new ArrayList<>(List.of(1,2,3,4,5))));
         System.out.println(isSorted(new ArrayList<>(List.of(11,4,2,6,4,2))));
+        System.out.println(1/10);
 
     }
 
