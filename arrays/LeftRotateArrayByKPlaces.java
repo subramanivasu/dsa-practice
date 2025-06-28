@@ -64,10 +64,10 @@ public class LeftRotateArrayByKPlaces {
 
         System.out.println();
         
-        int[] nums1 = new int[]{9,7,13,2,15,21};
+        int[] nums1 = new int[]{1,2,3,4,5,6,7};
 
-        optimalRotateArray(nums1,8);
-        for(int num:nums){
+        optimalRotateArray(nums1,3);
+        for(int num:nums1){
             System.out.print(num + " ");
         }
 
