@@ -1,2 +1,2 @@
 # dsa-practice
-DSA, Leetcode and stufff
+Sharing dsa solutions I practiced across various platforms
