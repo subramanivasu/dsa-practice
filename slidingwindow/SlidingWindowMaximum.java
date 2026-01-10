@@ -12,10 +12,10 @@ public class SlidingWindowMaximum {
 
         for (int i = 0; i < n; i++) {
             if (!dq.isEmpty() && dq.peekFirst() <= (i - k)) {
-                dq.removeFirst();
+                dq.pollFirst();
             }
             while (!dq.isEmpty() && arr[dq.peekLast()] <= arr[i]) {
-                dq.removeLast();
+                dq.pollLast();
             }
             dq.offerLast(i);
             if (i >= (k - 1)) {
