@@ -1,4 +1,4 @@
-package slidingwindow;
+package stacksandqueues;
 
 import java.util.Stack;
 
